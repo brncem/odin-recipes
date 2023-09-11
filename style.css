@@ -1,0 +1,30 @@
+body {
+    background-color: #f7b267;
+}
+h1 {
+    text-align: center;
+    color: #d4a373;
+}
+img {
+    height: auto;
+    width: 600px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 22%;
+}
+.menu {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #540b0e;
+    font-size: 27px;    
+}
+.menu a {
+    text-decoration: none;
+    color:#540b0e 
+}
+.menu a:hover {
+    background-color:blanchedalmond
+}
