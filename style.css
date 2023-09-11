@@ -1,19 +1,22 @@
 body {
-    background-color: #f7b267;
+    background-image: url('imgs/background.jpg');
+    background-size: cover;
+    background-position: center;
 }
-h1 {
-    text-align: center;
-    color: #d4a373;
-}
-img {
-    height: auto;
-    width: 600px;
-}
-.center {
+#logo.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 22%;
+}
+#gibli.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+#gibli {
+    border-radius: 8px;
 }
 .menu {
     font-family: 'Courier New', Courier, monospace;
@@ -26,5 +29,5 @@ img {
     color:#540b0e 
 }
 .menu a:hover {
-    background-color:blanchedalmond
+    background-color:bisque;
 }
