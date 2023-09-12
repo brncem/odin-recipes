@@ -1,14 +1,21 @@
+* {
+    font-family: 'shrikhandregular', sans-serif;
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'shrikhandregular';
+    src: url('/odin-recipes/shrikhand-regular-webfont.woff2') format('woff2'),
+         url('/odin-recipes/shrikhand-regular-webfont.woff') format('woff');
+}
 body {
-    background-image: url('imgs/background.jpg');
+    background-image: url('imgs/');
     background-size: cover;
     background-position: center;
+    background-color: #344e41;
 }
-#logo.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 22%;
-}
+h1 {
+    text-align: center;
+    color: #a3b18a;}
 #gibli.center {
     display: block;
     margin-left: auto;
@@ -18,16 +25,39 @@ body {
 #gibli {
     border-radius: 8px;
 }
-.menu {
-    font-family: 'Courier New', Courier, monospace;
+.cheeseborek {
     text-align: center;
-    color: #540b0e;
-    font-size: 27px;    
-}
-.menu a {
+    width: 15%; 
+    margin: auto; 
+    padding: 14px; 
+    border: 2px solid #dad7cd; 
+    border-radius: 8px; 
+    color: #a3b18a;
+    background-color: #588157;
     text-decoration: none;
-    color:#540b0e 
+    display: block;
 }
-.menu a:hover {
-    background-color:bisque;
+.dolma {
+    text-align: center;
+    width: 15%; 
+    margin: auto; 
+    padding: 14px; 
+    border: 2px solid #dad7cd; 
+    border-radius: 8px; 
+    color: #a3b18a;
+    background-color: #588157;
+    text-decoration: none;
+    display: block;
+}
+.kunefe {
+    text-align: center;
+    width: 15%; 
+    margin: auto; 
+    padding: 14px; 
+    border: 2px solid #dad7cd; 
+    border-radius: 8px; 
+    color: #a3b18a;
+    background-color: #588157;
+    text-decoration: none;
+    display: block;
 }
